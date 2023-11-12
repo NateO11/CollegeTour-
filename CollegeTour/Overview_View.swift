@@ -1,5 +1,5 @@
 //
-//  Second_view.swift
+//  Overview_View.swift
 //  CollegeTour
 //
 //  Created by Nate Owen on 11/12/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct Second_view: View {
+struct Overview_View: View {
     var body: some View {
-        Color.red
+        Text("OverView")
     }
 }
 
-struct Second_view_Previews: PreviewProvider {
+struct Overview_View_Previews: PreviewProvider {
     static var previews: some View {
-        Second_view()
+        Overview_View()
     }
 }
