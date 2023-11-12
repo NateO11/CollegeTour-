@@ -15,6 +15,7 @@
 		E643AE862B016EFF004E767A /* CollegeTourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E643AE852B016EFF004E767A /* CollegeTourUITests.swift */; };
 		E643AE882B016EFF004E767A /* CollegeTourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E643AE872B016EFF004E767A /* CollegeTourUITestsLaunchTests.swift */; };
 		E643AE952B017184004E767A /* Second_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = E643AE942B017184004E767A /* Second_view.swift */; };
+		E643AE972B0176E0004E767A /* third_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = E643AE962B0176E0004E767A /* third_view.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E643AE852B016EFF004E767A /* CollegeTourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeTourUITests.swift; sourceTree = "<group>"; };
 		E643AE872B016EFF004E767A /* CollegeTourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeTourUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E643AE942B017184004E767A /* Second_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_view.swift; sourceTree = "<group>"; };
+		E643AE962B0176E0004E767A /* third_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = third_view.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E643AE692B016EFC004E767A /* CollegeTourApp.swift */,
 				E643AE6B2B016EFC004E767A /* ContentView.swift */,
+				E643AE962B0176E0004E767A /* third_view.swift */,
 				E643AE942B017184004E767A /* Second_view.swift */,
 				E643AE6D2B016EFF004E767A /* Assets.xcassets */,
 				E643AE6F2B016EFF004E767A /* CollegeTour.entitlements */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E643AE972B0176E0004E767A /* third_view.swift in Sources */,
 				E643AE6C2B016EFC004E767A /* ContentView.swift in Sources */,
 				E643AE952B017184004E767A /* Second_view.swift in Sources */,
 				E643AE6A2B016EFC004E767A /* CollegeTourApp.swift in Sources */,
