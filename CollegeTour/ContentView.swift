@@ -8,10 +8,25 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("College Tour")
-                    .font(.title)
-                    .padding()
-                    .foregroundColor(.blue)
+                HStack{
+                    NavigationLink(destination: SchoolSelect()) {
+                            Image(systemName: "gear")
+                                .resizable()
+                                .frame(width: 50, height: 50)
+                                .padding()
+                                    }
+                    Text("College Tour")
+                        .font(.title)
+                        .padding()
+                        .foregroundColor(.blue)
+                    
+                    NavigationLink(destination: SchoolSelect()) {
+                            Image(systemName: "circle")
+                                .resizable()
+                                .frame(width: 50, height: 50)
+                                .padding()
+                                    }
+                }
                 TabView {
                     Map_View()
                         .tabItem {
